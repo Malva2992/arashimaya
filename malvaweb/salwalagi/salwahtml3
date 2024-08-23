@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Profil Biodata Lengkap</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-card {
+            background-color: #ffccdd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .profile-card h1 {
+            color: #ff6699;
+            margin: 10px 0;
+        }
+        .profile-card table {
+            width: 100%;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .profile-card table th, .profile-card table td {
+            padding: 8px;
+            border-bottom: 1px solid #ff99b3;
+        }
+        .profile-card table th {
+            color: #ff6699;
+            text-align: left;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <div class="profile-card"> 
+   <img src="path-to-your-photo.jpg" alt="Profile Photo"> 
+   <h1>Nama Anda</h1> 
+   <table> 
+    <tbody>
+     <tr> 
+      <th>Nama Lengkap</th> 
+      <td>Nama Lengkap Anda</td> 
+     </tr> 
+     <tr> 
+      <th>Tempat, Tanggal Lahir</th> 
+      <td>Kota, 1 Januari 1990</td> 
+     </tr> 
+     <tr> 
+      <th>Alamat</th> 
+      <td>Jalan Mawar No. 10, Jakarta</td> 
+     </tr> 
+     <tr> 
+      <th>Jenis Kelamin</th> 
+      <td>Perempuan</td> 
+     </tr> 
+     <tr> 
+      <th>Agama</th> 
+      <td>Islam</td> 
+     </tr> 
+     <tr> 
+      <th>Golongan Darah</th> 
+      <td>O</td> 
+     </tr> 
+     <tr> 
+      <th>Hobi</th> 
+      <td>Membaca, Menulis, Traveling</td> 
+     </tr> 
+     <tr> 
+      <th>Pendidikan</th> 
+      <td>S1 Teknik Informatika</td> 
+     </tr> 
+     <tr> 
+      <th>Pekerjaan</th> 
+      <td>Software Developer</td> 
+     </tr> 
+     <tr> 
+      <th>Email</th> 
+      <td>namaemail@gmail.com</td> 
+     </tr> 
+     <tr> 
+      <th>Telepon</th> 
+      <td>08123456789</td> 
+     </tr> 
+    </tbody>
+   </table> 
+  </div> 
+ </body>
+</html>

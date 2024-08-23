@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            color: #333;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ff99cc;
+        }
+        .biodata {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .biodata h1 {
+            color: #ff66b2;
+        }
+        .biodata p {
+            font-size: 18px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ff99cc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ff99cc;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #ffe6f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic">
+            <img src="profile.jpg" alt="Foto Profil">
+        </div>
+        <div class="biodata">
+            <h1>Nama Anda</h1>
+            <p>Informasi singkat tentang Anda.</p>
+        </div>
+        <table>
+            <tr>
+                <th>Detail</th>
+                <th>Informasi</th>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>Nama Anda</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>Tempat, Tanggal Lahir Anda</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Alamat Anda</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>email@domain.com</td>
+            </tr>
+            <tr>
+                <td>Telepon</td>
+                <td>+62 812 3456 7890</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
